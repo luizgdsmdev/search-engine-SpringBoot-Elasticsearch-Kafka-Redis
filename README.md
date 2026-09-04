@@ -181,3 +181,12 @@ mvn clean install
 | **Search Service** | `GET` | `/api/v1/search/people?q={query}` | Search profiles by keywords/skills. |
 | **Feed Service** | `GET` | `/api/v1/feed` | Retrieve personalized user feed from Redis. |
 |  |  |  |  |
+
+
+## Acknowledgements & References
+
+This project was built for educational purposes and hands-on practice in distributed systems and microservices architecture.
+
+Special thanks to **Yeshendra Dhaker** for the educational video tutorial *How LinkedIn Searches 900M+ Jobs in Milliseconds*, which served as the primary reference for this backend implementation.
+- **Architecture Inspiration**: Inspired by the LinkedIn Microservices System Design tutorial by [Yeshendra Dhaker](https://www.youtube.com/@YeshendraDhaker) ([Watch Video](https://www.youtube.com/watch?v=K-EmCZWoCGA)).
+- **Purpose**: Designed to study and implement real-world enterprise patterns such as Event-Driven Architecture (Kafka), Fan-out caching (Redis), and Full-text searching (Elasticsearch).
