@@ -13,7 +13,7 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: root
     ports:
-      - "3306:3306"
+      - "3307:3307" # switch to standard "3306:3306" if needed
     volumes:
       - mysql-data:/var/lib/mysql
     networks:
